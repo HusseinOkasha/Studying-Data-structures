@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=Queue_using_array
 ConfigurationName      :=Debug
-WorkspacePath          :="/media/hussein/F2B288F7B288C199/Data_Structures "
-ProjectPath            :=/media/hussein/F2B288F7B288C199/Data_Structures/Queue_using_array
+WorkspacePath          :="/media/hussein/805A95D45A95C6F6/Studying Data structures"
+ProjectPath            :="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Hussein Okasha
-Date                   :=15/03/20
+Date                   :=16/03/20
 CodeLitePath           :=/home/hussein/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/media/hussein/F2B288F7B288C199/Data_Structures/Queue_using_array/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

@@ -93,7 +93,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Queue.cpp"/>
     <File Name="Queue.h"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
