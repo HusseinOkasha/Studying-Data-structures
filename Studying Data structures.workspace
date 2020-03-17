@@ -3,27 +3,29 @@
   <Project Name="circular_linked_list" Path="circular_linked_list/circular_linked_list.project" Active="No"/>
   <Project Name="Double_linked_List" Path="Double_linked_List/Double_linked_List.project" Active="No"/>
   <Project Name="linked_list" Path="linked_list/linked_list.project" Active="No"/>
-  <Project Name="Queue_using_array" Path="Queue_using_array/Queue_using_array.project" Active="Yes"/>
   <Project Name="stack_using_array" Path="stack_using_array/stack_using_array.project" Active="No"/>
   <Project Name="stack_using_linkedlist" Path="stack_using_linkedlist/stack_using_linkedlist.project" Active="No"/>
+  <Project Name="Queues" Path="Queues/Queue_using_array.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="circular_linked_list" ConfigName="Debug"/>
       <Project Name="Double_linked_List" ConfigName="Debug"/>
       <Project Name="linked_list" ConfigName="Debug"/>
-      <Project Name="Queue_using_array" ConfigName="Debug"/>
+      <Project Name="Queues" ConfigName="Debug"/>
       <Project Name="stack_using_array" ConfigName="Debug"/>
       <Project Name="stack_using_linkedlist" ConfigName="Debug"/>
+      <Project Name="Queues" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="circular_linked_list" ConfigName="Release"/>
       <Project Name="Double_linked_List" ConfigName="Release"/>
       <Project Name="linked_list" ConfigName="Release"/>
-      <Project Name="Queue_using_array" ConfigName="Release"/>
+      <Project Name="Queues" ConfigName="Release"/>
       <Project Name="stack_using_array" ConfigName="Release"/>
       <Project Name="stack_using_linkedlist" ConfigName="Release"/>
+      <Project Name="Queues" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
