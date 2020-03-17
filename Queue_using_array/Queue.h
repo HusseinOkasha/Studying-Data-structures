@@ -7,8 +7,8 @@ template<typename T>
 class Queue
 {
  private:
-      T* first;
-      T* last; 
+      T* first;// points to the first element in the queue
+      T* last; // points to  just after the last element in the queue
       int size ;
       int capacity;  
  public:
@@ -16,6 +16,11 @@ class Queue
      Queue(T element);
      Queue(T *elements, int size);
   // functions....
+      void enqueue(T element );
+      void dequeue();
+      bool is_full();
+      bool is_empty();
+      void increase_capacity();
       int get_size();
       int get_capacity();
       T* get_begin();// returns pointer to first element in the queue.

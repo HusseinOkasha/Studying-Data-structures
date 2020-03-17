@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="6" Name="m_selectedTab"/>
   <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Double_linked_List/CircularDoubleLInkedList.h" Name="FileName"/>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array/Queue.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array/Queue.cpp" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="36" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/circular_linked_list/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/circular_linked_list/CircularLinkedList.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/linked_list/CircularLinkedList.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/linked_list/LinkedList.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>

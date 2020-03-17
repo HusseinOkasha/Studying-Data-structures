@@ -2,8 +2,8 @@
 <CodeLite_Workspace Name="Studying Data structures" Database="" Version="10.0.0">
   <Project Name="circular_linked_list" Path="circular_linked_list/circular_linked_list.project" Active="No"/>
   <Project Name="Double_linked_List" Path="Double_linked_List/Double_linked_List.project" Active="No"/>
-  <Project Name="linked_list" Path="linked_list/linked_list.project" Active="Yes"/>
-  <Project Name="Queue_using_array" Path="Queue_using_array/Queue_using_array.project" Active="No"/>
+  <Project Name="linked_list" Path="linked_list/linked_list.project" Active="No"/>
+  <Project Name="Queue_using_array" Path="Queue_using_array/Queue_using_array.project" Active="Yes"/>
   <Project Name="stack_using_array" Path="stack_using_array/stack_using_array.project" Active="No"/>
   <Project Name="stack_using_linkedlist" Path="stack_using_linkedlist/stack_using_linkedlist.project" Active="No"/>
   <BuildMatrix>
