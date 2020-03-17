@@ -12,6 +12,7 @@ public:
     virtual void insert(T element , int index);
     virtual void erase(int index, int numberOfElements);
     virtual void reverse();    
+    
     ~CircularLinkedList();
 
 };

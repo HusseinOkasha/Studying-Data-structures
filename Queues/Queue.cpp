@@ -19,11 +19,11 @@ Queue<T>::Queue(T *elements, int numberOfElements )
          last=(first+numberOfElements);    
 }
 template<typename T> 
-T* Queue<T>::get_begin(){
+T* Queue<T>::get_first(){
       return first;     
 }
 template<typename T> 
-T* Queue<T>::get_end(){
+T* Queue<T>::get_last(){
      return last;   
 }
 template<typename T> 
@@ -37,7 +37,7 @@ int Queue<T>::get_capacity(){
 template<typename T>
 ostream &operator<<(ostream &out, Queue<T> &q){
             
-            for (auto it=q.get_begin(); it!=q.get_end(); it++){
+            for (auto it=q.get_first(); it!=q.get_last(); it++){
                     out <<*it  << " " ;      
             }     
          return out;   
