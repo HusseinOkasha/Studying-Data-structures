@@ -16,7 +16,7 @@ class Queue
      Queue(T element);
      Queue(T *elements, int size);
   // functions....
-      void enqueue(T element );
+      virtual void enqueue(T element );
       virtual void dequeue();
       bool is_full();
       bool is_empty();
@@ -25,7 +25,7 @@ class Queue
       int get_capacity();
       T* get_first();// returns pointer to first element in the queue.
       T* get_last();// return pointer to lindex just after last element in the queue.
-      virtual ostream&operator<<( ostream &out);
+      ostream&operator<<( ostream &out);
   // destructors...   
     ~Queue();
 

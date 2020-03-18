@@ -21,15 +21,26 @@ void Circular_Queue<T>::increase_capacity(){
           for (int i=0; i<this->size;i++){
                  temp[i]=*(this->first+i);      
           }
-          this->capacity=this->capacity*2;
-           delete [] this->first;
+           this->capacity=this->capacity*2;
+           this->first =nullptr;
            this->first=temp;
            this->last=temp+this->size;         
            temp=nullptr;
            begin=this->first;
-           end=this->first+this->capacity-1;
+           end=this->first+this->capacity;
 }
-
+template <typename T>
+void Circular_Queue<T>::enqueue(T element){
+       if (this->capacity==this->size){
+           this->increase_capacity();      
+      }
+      else if (this->last-1==end){
+          this->last=this->begin;
+      }
+     *(this->last)=element;    
+       this->size++; 
+       this->last+=1;     
+}
 template <typename T>
 void Circular_Queue<T>::dequeue(){
           
@@ -60,8 +71,13 @@ T* Circular_Queue<T>::get_end(){
 }
 template<typename T>
 ostream&operator<<( ostream &out, Circular_Queue<T> &q){
-     for (auto it=q.get_begin(); it!=q.get_end(); it++){
-                    out <<*it  << " " ;      
+     auto it = q.get_first();  
+     for (int i=0; i<q.get_size();i++){
+             if (it==q.get_end()+1){
+                 it=q.get_begin();    
+            }         
+            out <<*it << " " ;
+             it++;                         
             }     
          return out;   
 }

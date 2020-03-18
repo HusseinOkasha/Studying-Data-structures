@@ -23,10 +23,15 @@ int main()
     Circular_Queue<int> cq(arr,5) ;
     cout << cq << endl ;
     cq.dequeue();
-    cq.dequeue();
-    cout << cq << endl ; 
+
+   
+    //cout << cq << endl ; 
     cq.enqueue(1000);
-    cout << cq << endl ; 
+    cout << cq << endl ;
+    cq.dequeue(); 
+    cout << cq << endl ;
+    cq.enqueue(1100);
+    cout << cq << endl ;
     /*cout << "size: " << q1.get_size() << " capacity: " << q1.get_capacity() << endl ;
     cout  << "first: " <<*(q1.get_begin()) << " ::::::: " << "last: " <<*(q1.get_end()) << endl;  */
 	return 0;

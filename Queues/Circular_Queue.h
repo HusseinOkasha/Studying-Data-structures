@@ -14,9 +14,10 @@ public:
     
     Circular_Queue(T element);
     Circular_Queue(T* element, int size);
+    virtual void enqueue(T element );
     virtual void dequeue();
     virtual void increase_capacity();
-    virtual ostream& operator<<( ostream &out);
+    ostream&operator<<( ostream &out);
     T* get_begin();
     T* get_end();
     ~Circular_Queue();
