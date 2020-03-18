@@ -1,47 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/main.cpp" Name="FileName"/>
-      <int Value="1" Name="FirstVisibleLine"/>
-      <int Value="27" Name="CurrentLine"/>
+      <int Value="14" Name="FirstVisibleLine"/>
+      <int Value="33" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Circular_Queue.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="18" Name="CurrentLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Circular_Queue.cpp" Name="FileName"/>
-      <int Value="46" Name="FirstVisibleLine"/>
-      <int Value="62" Name="CurrentLine"/>
+      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="75" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Queue.h" Name="FileName"/>
-      <int Value="10" Name="FirstVisibleLine"/>
-      <int Value="26" Name="CurrentLine"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Queue.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="39" Name="CurrentLine"/>
+      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="77" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
-    <long Value="3" Name="Count"/>
+    <long Value="5" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/main.cpp" Name="file"/>
+      <int Value="30" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint1">
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_array/Queue.cpp" Name="file"/>
       <int Value="90" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -57,9 +73,9 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint1">
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Queue.cpp" Name="file"/>
-      <int Value="67" Name="lineno"/>
+    <SerializedObject Name="Breakpoint2">
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Circular_Queue.cpp" Name="file"/>
+      <int Value="34" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
       <int Value="1" Name="bp_type"/>
@@ -73,9 +89,25 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint2">
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/main.cpp" Name="file"/>
-      <int Value="28" Name="lineno"/>
+    <SerializedObject Name="Breakpoint3">
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Circular_Queue.cpp" Name="file"/>
+      <int Value="75" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint4">
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queues/Queue.cpp" Name="file"/>
+      <int Value="67" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
       <int Value="1" Name="bp_type"/>

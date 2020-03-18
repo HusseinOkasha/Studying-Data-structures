@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  /*  int arr[5]={-1,2,5,7,90};
+    int arr[5]={-1,2,5,7,90};
     int a[5]={-6,5,20,22,24};
     LinkedList<int>first(5,arr);
     LinkedList<int>second(5,a);
@@ -30,10 +30,11 @@ int main()
       first.append_list(third);
       first.display();
     //first.display();
-     * ---------------------------------------------------
+    /* * ---------------------------------------------------
      * CIRCULAR LINKED LIST
      * 
      * */
+     /*
      int a [5]={10,20,30,40,50};
      CircularLinkedList<int>B(5,a);
      B.reverse();
@@ -41,6 +42,6 @@ int main()
      B.erase(1,4);
      B.display();
      cout << " Head:" << B.begin()->data << endl ;
-     cout << " Last:" << B.end()->next->next->data << endl;
+     cout << " Last:" << B.end()->next->next->data << endl;*/
 	return 0;
 }
