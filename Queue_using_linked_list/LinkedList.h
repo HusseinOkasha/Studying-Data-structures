@@ -11,6 +11,7 @@ protected:
     Node<T>*last;
     int size ;   
 public:
+     LinkedList();
      LinkedList(int numberOfElements,T* elements );
      LinkedList(T element );
      virtual void display();

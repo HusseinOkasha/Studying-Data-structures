@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 template<typename T>
+LinkedList<T>::LinkedList(){
+
+}
+template<typename T>
 LinkedList<T>::LinkedList(T element ){
         this->data=element;
         this->next=nullptr;     
@@ -30,10 +34,10 @@ template<typename T>
 void LinkedList<T>::display(){
        Node<T>*pointer=head;
        while (pointer!=nullptr){
-                 cout << pointer->data << endl ;
+                 cout << pointer->data << " " ;
                  pointer=pointer->next;
        }    
-       cout << "========================================================="  << endl ;
+       cout<< endl << "========================================================="  << endl ;
 }
 template<typename T>
 int LinkedList<T>::numberOfNodes(){
@@ -247,4 +251,3 @@ LinkedList<T>::~LinkedList()
      
     
 }
-
