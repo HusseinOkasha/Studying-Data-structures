@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace">
-  <int Value="6" Name="m_selectedTab"/>
+  <int Value="3" Name="m_selectedTab"/>
   <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Studying Data structures.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/main.cpp" Name="FileName"/>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/LinkedList.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/LinkedList.h" Name="FileName"/>
-      <int Value="2" Name="FirstVisibleLine"/>
-      <int Value="13" Name="CurrentLine"/>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/Node.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/LinkedList.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/Node.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
@@ -41,14 +27,21 @@
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/Queue.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
+      <int Value="14" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/Queue.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="7" Name="CurrentLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Queue_using_linked_list/LinkedList.cpp" Name="FileName"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="39" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

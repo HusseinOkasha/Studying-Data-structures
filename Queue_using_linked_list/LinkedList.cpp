@@ -8,8 +8,9 @@ LinkedList<T>::LinkedList(){
 }
 template<typename T>
 LinkedList<T>::LinkedList(T element ){
-        this->data=element;
-        this->next=nullptr;     
+        head->data=element;
+        head->next=nullptr;
+        last=nullptr;      
 }
 template<typename T>
 LinkedList<T>::LinkedList(int numberOfElements,T* elements )
