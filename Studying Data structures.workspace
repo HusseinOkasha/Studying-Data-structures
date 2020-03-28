@@ -7,7 +7,9 @@
   <Project Name="stack_using_linkedlist" Path="stack_using_linkedlist/stack_using_linkedlist.project" Active="No"/>
   <Project Name="Queues" Path="Queues/Queue_using_array.project" Active="No"/>
   <Project Name="Queue_using_linked_list" Path="Queue_using_linked_list/Queue_using_linked_list.project" Active="No"/>
-  <Project Name="Double_ended_queue" Path="Double_ended_queue/Double_ended_queue.project" Active="Yes"/>
+  <Project Name="Double_ended_queue" Path="Double_ended_queue/Double_ended_queue.project" Active="No"/>
+  <Project Name="priority_queue" Path="priority_queue/priority_queue.project" Active="No"/>
+  <Project Name="creating_trees" Path="creating_trees/creating_trees.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -20,6 +22,8 @@
       <Project Name="Queues" ConfigName="Debug"/>
       <Project Name="Queue_using_linked_list" ConfigName="Debug"/>
       <Project Name="Double_ended_queue" ConfigName="Debug"/>
+      <Project Name="priority_queue" ConfigName="Debug"/>
+      <Project Name="creating_trees" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -32,6 +36,8 @@
       <Project Name="Queues" ConfigName="Release"/>
       <Project Name="Queue_using_linked_list" ConfigName="Release"/>
       <Project Name="Double_ended_queue" ConfigName="Release"/>
+      <Project Name="priority_queue" ConfigName="Release"/>
+      <Project Name="creating_trees" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
