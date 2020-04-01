@@ -2,13 +2,13 @@
  * BinarySearchTree.h
  *
  *  Created on: Mar 31, 2020
- *      Author: hussein
+ *      Author: Hussein Okasha
  */
 
 #ifndef BINARYSEARCHTREE_H_
 #define BINARYSEARCHTREE_H_
 #include <iostream>
-#include "Node.h";
+#include "Node.h"
 using namespace std;
 
 class Binary_Search_Tree {

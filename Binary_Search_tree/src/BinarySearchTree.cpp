@@ -117,11 +117,13 @@ void Binary_Search_Tree::delete_value(int key){
 void Binary_Search_Tree::connect_tree(Node* right, Node* left){
 	 Node* current=right;
 	 Node* pervious=nullptr;
-	 while (current!=nullptr){
-		 pervious=current;
-		 current =current->left;
+	 if (current!=nullptr){
+		 while (current!=nullptr){
+			 pervious=current;
+			 current =current->left;
+		 }
+		 pervious->left=left;
 	 }
-	 pervious->left=left;
 }
 /*========================================================================*/
 
