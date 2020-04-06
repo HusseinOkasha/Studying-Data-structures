@@ -23,21 +23,33 @@ Node::Node (int key)
 }
 int Node::cal_height_left(){
     if (left_child!=nullptr){
-          height_left=left_child->cal_height_left()+1;   
-          return height_left;
+          height_left=left_child->cal_height_left()+1;
+          if (left_child->right_child!=nullptr){
+             height_left+=left_child->right_child->cal_height_left()+1;     
+         }
+         return height_left;
     }
-    else{
-          return 0;    
-    }
+    return 0;
+    
 }
 int Node::cal_height_right(){
-    if (right_child!=nullptr){
+    if (right_child!=nullptr)
+    {
+         // fix bug here
           height_right=right_child->cal_height_right()+1;   
-          return height_right;
+          if (right_child->left_child!=nullptr)
+          {
+               height_right+=right_child->left_child->cal_height_right()+1;     
+          }
+         return height_right;    
     }
-    else{
-          return 0;    
-    }
+     return 0;
+}
+int Node::get_left_height(){
+       return height_left;   
+}
+int Node::get_right_height(){
+       return height_right;     
 }
 Node::~Node()
 {

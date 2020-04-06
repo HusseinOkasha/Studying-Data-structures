@@ -9,7 +9,8 @@
   <Project Name="Queue_using_linked_list" Path="Queue_using_linked_list/Queue_using_linked_list.project" Active="No"/>
   <Project Name="Double_ended_queue" Path="Double_ended_queue/Double_ended_queue.project" Active="No"/>
   <Project Name="priority_queue" Path="priority_queue/priority_queue.project" Active="No"/>
-  <Project Name="creating_trees" Path="creating_trees/creating_trees.project" Active="Yes"/>
+  <Project Name="creating_trees" Path="creating_trees/creating_trees.project" Active="No"/>
+  <Project Name="Avl_tree" Path="Avl_tree/Avl_tree.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -24,6 +25,7 @@
       <Project Name="Double_ended_queue" ConfigName="Debug"/>
       <Project Name="priority_queue" ConfigName="Debug"/>
       <Project Name="creating_trees" ConfigName="Debug"/>
+      <Project Name="Avl_tree" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -38,6 +40,7 @@
       <Project Name="Double_ended_queue" ConfigName="Release"/>
       <Project Name="priority_queue" ConfigName="Release"/>
       <Project Name="creating_trees" ConfigName="Release"/>
+      <Project Name="Avl_tree" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
