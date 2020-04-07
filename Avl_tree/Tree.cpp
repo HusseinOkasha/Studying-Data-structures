@@ -44,7 +44,7 @@ bool Tree::insert(int key){
                     pervious->left_child=inserted;
                     pervious->height_left++;
                 }
-                adapt_tree(key);
+                 adapt_tree(key);
                 
                 
                 return true;
@@ -72,90 +72,106 @@ Node* Tree::search(int key){
 
 void Tree::adapt_tree(int key)
 {
-    Node * current =root;
-    
+    Node* current =root;
+    Node* pervious=nullptr;
     while (current != nullptr){
-           if (current->cal_height_left() - current->cal_height_right()>1){
+           if (current->cal_height_left(current) - current->cal_height_right(current)>1){
                    
                   if (current->left_child->height_left- current->left_child->height_right<0)
                    {
-                        cout << "LR rotation" << endl ;
-                        lr_rotation(current);
+                        cout << "LR rotation for "   << endl ;
+                        lr_rotation(current , pervious);
                         
                         
                    }
                    else 
                    {
-                        cout << "LL rotation" << endl ;
-                        ll_rotation(current);
+                        cout << "LL rotation" << current->data << endl ;
+                        ll_rotation(current , pervious);
                         
                    }
            }
-           else if (current->cal_height_left()-current->cal_height_right()<-1)
+           else if (current->cal_height_left(current)-current->cal_height_right(current)<-1)
             {     
                    if (current->right_child->height_left- current->right_child->height_right>0)
                    {
-                        cout << "RL rotation..." << endl ;
-                        rl_rotation(current);
+                        cout << "RL rotation..." << current->data<< endl ;
+                        rl_rotation(current , pervious);
                         
                    }
                    else
                    {
-                         cout << "RR rotation" << endl ; 
-                         rr_rotation(current);
+                         cout << "RR rotation" << current->data<< endl ; 
+                         rr_rotation(current , pervious);
                         
                    }
                    
             }  
-            
+            pervious=current; 
             if (current->data< key){
-                current= current->right_child;        
+                current= current->right_child; 
             } 
             else if (current->data > key){
                   current=current->left_child;     
             }
             else if (current->data==key){
                     break;
-            }  
+            }
+              
     }
     
 }
 
-void Tree::ll_rotation(Node* root)
+void Tree::ll_rotation(Node* root , Node* pervious)
 {
-     Node* temp;
-     Node* temp2;
-     temp=root->left_child->right_child;
-     root->left_child->right_child=root;    
-     temp2=root->left_child;
-     root->left_child=temp;
+     Node* temp1=root->left_child;
+     Node* temp2=temp1->right_child;
+     temp1->right_child=root;
+     root->left_child=temp2;
+     
      //in case the unbalanced node is the root node of the whole tree.
      if (root==this->root){
-        this->root=temp2;    
-        root=temp2;
+         this->root=temp1;    
      }
-     else{
-          root=temp2;    
-     }
+     root=temp1;
+     if (pervious!=nullptr)
+    {
+            if (root->data < pervious->data){
+                    pervious->left_child=root;     
+            }
+            else{
+                    pervious->right_child=root;    
+            }
+    }
      
 }
-void Tree::rr_rotation(Node* root)
+void Tree::rr_rotation(Node* root , Node* pervious)
 {   
     Node* temp1 =root->right_child;
-    Node* temp2=root;
-    root->right_child=root->right_child->left_child;
-    root=temp1;
-    root->left_child=temp2;
+    Node* temp2=temp1->left_child;
+    temp1->left_child=root;
+    root->right_child=temp2;
+    
     //in case the unbalanced node is the root node of the whole tree.
-    if (temp2==this->root){
-          this->root=root;     
+    if (root==this->root){
+          this->root=temp1;     
+    }
+    root=temp1;
+     if (pervious!=nullptr)
+    {
+            if (root->data < pervious->data){
+                    pervious->left_child=root;     
+            }
+            else{
+                    pervious->right_child=root;    
+            }
     }
 }
-void Tree::rl_rotation(Node* root)
+void Tree::rl_rotation(Node* root , Node* pervious)
 {
     Node* temp1= root->right_child->left_child ;
     Node* temp2=temp1->left_child;
-    Node* temp3=temp3->right_child;
+    Node* temp3=temp1->right_child;
     temp1->left_child=root;
     temp1->right_child=root->right_child;
     root=temp1;
@@ -166,10 +182,18 @@ void Tree::rl_rotation(Node* root)
     if (this->root= root->left_child){
            this->root=root;    
     }
-    
+    if (pervious!=nullptr)
+    {
+            if (root->data < pervious->data){
+                    pervious->left_child=root;     
+            }
+            else{
+                    pervious->right_child=root;    
+            }
+    }
     
 }
-void Tree::lr_rotation(Node* root)
+void Tree::lr_rotation(Node* root , Node* pervious)
 {
     Node* temp1 = root->left_child->right_child;
     Node* temp2= temp1->right_child;
@@ -182,14 +206,60 @@ void Tree::lr_rotation(Node* root)
     temp4->left_child=temp2;
     
     //in case the unbalanced node is the root node of the whole tree.
-    if (this->root= temp4){
+    if (this->root= temp4)
+    {
         this->root=root;    
     }
-    
-    
+    if (pervious!=nullptr)
+    {
+            if (root->data < pervious->data){
+                    pervious->left_child=root;     
+            }
+            else{
+                    pervious->right_child=root;    
+            }
+    }
     
 }
-     
+void Tree::delete_key(int key){
+        Node* current =root;
+        Node* pervious=nullptr;
+        while (current!=nullptr)
+        {
+                if (current->data==key)
+                {
+                    break;
+                }
+                else if (current->data < key)
+                {
+                    pervious=current;
+                    current=current->right_child;
+                }
+                else
+                {
+                    pervious=current;
+                    current=current->left_child;
+                }
+      }
+       if (current==nullptr)
+       {
+           cout << "Your key doesn't exist.." << endl ;
+       }
+       else
+       {
+             if (current->data < pervious->data)
+            {
+                  pervious->left_child=nullptr;
+                  adapt_tree(key);  
+             
+            }
+            else
+            {
+                 pervious->right_child=nullptr;
+                adapt_tree(key);     
+            }       
+       }
+}     
 
 //destructors....
 Tree::~Tree()

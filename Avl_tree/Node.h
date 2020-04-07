@@ -20,8 +20,8 @@ public:
     Node(int key);
     
    //functions.....
-    int cal_height_left();
-    int cal_height_right();
+    int cal_height_left(Node * root);
+    int cal_height_right(Node * root);
     int get_left_height(); 
     int get_right_height(); 
     //Destructors 

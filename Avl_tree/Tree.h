@@ -22,11 +22,11 @@ public:
      bool insert(int key);
      void delete_key(int key);
      
-     void adapt_tree(int key);// adapt  tree after effect of key. 
-     void ll_rotation(Node* root);
-     void rr_rotation(Node* root);
-     void rl_rotation(Node* root);
-     void lr_rotation(Node* root);
+     void adapt_tree(int key );// adapt  tree after effect of key. 
+     void ll_rotation(Node* root ,  Node* pervious);
+     void rr_rotation(Node* root , Node* pervious);
+     void rl_rotation(Node* root , Node* pervious);
+     void lr_rotation(Node* root , Node* pervious);
      
     //destructors  
     ~Tree();

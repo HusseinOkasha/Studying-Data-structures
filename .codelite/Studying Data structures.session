@@ -5,36 +5,36 @@
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Avl_tree/Node.cpp" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
-      <int Value="33" Name="CurrentLine"/>
+      <int Value="27" Name="FirstVisibleLine"/>
+      <int Value="54" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Avl_tree/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="14" Name="CurrentLine"/>
+      <int Value="17" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Avl_tree/Node.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="22" Name="CurrentLine"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="23" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Avl_tree/Tree.cpp" Name="FileName"/>
-      <int Value="46" Name="FirstVisibleLine"/>
-      <int Value="88" Name="CurrentLine"/>
+      <int Value="182" Name="FirstVisibleLine"/>
+      <int Value="213" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/media/hussein/805A95D45A95C6F6/Studying Data structures/Avl_tree/Tree.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="24" Name="CurrentLine"/>
+      <int Value="22" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
