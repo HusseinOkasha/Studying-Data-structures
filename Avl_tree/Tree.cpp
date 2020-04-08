@@ -204,7 +204,7 @@ void Tree::lr_rotation(Node* root , Node* pervious)
     root->right_child=temp4;
     root->left_child->right_child=temp3;
     temp4->left_child=temp2;
-    
+
     //in case the unbalanced node is the root node of the whole tree.
     if (this->root= temp4)
     {
@@ -247,17 +247,45 @@ void Tree::delete_key(int key){
        }
        else
        {
-             if (current->data < pervious->data)
-            {
-                  pervious->left_child=nullptr;
-                  adapt_tree(key);  
+                Node ** to_be_connected;
+                if (current->data < pervious->data)
+                {
+                        to_be_connected=&pervious->left_child;
+                  
              
-            }
-            else
-            {
-                 pervious->right_child=nullptr;
-                adapt_tree(key);     
-            }       
+                }
+                else
+                {
+                        to_be_connected=&pervious->right_child;     
+                }
+                if (current->left_child!=nullptr && current->right_child != nullptr)
+                {
+                 
+                        Node* temp_left_child=current->left_child;
+                        Node* temp=current->right_child;
+                        *(to_be_connected)=current->right_child;
+                        while (temp->left_child!=nullptr)
+                        {
+                                temp=temp->left_child;  
+                        }
+                        temp->left_child=temp_left_child;
+    
+                }
+                else if (current->left_child!=nullptr && current->right_child==nullptr)
+                {
+                        *(to_be_connected)=current->left_child;   
+                }   
+                else if (current->left_child ==nullptr && current->right_child!=nullptr)
+                {
+                        *(to_be_connected)=current->right_child;
+                }
+                else if(current->left_child==nullptr && current->right_child== nullptr) 
+                {
+                        *(to_be_connected)= nullptr;
+                  
+                } 
+                delete current;
+                adapt_tree(key);
        }
 }     
 

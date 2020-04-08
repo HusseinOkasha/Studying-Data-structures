@@ -16,8 +16,8 @@ int main()
     tree->insert(70);
     tree->insert(80);
     
-    //tree->delete_key(80);
-    //tree->delete_key(70);
+     //tree->delete_key(80);
+    tree->delete_key(70);
     cout << "==============================================================" << endl ;
     
     cout << "Root: " << tree->root->data << endl;

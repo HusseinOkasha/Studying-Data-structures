@@ -11,6 +11,7 @@
   <Project Name="priority_queue" Path="priority_queue/priority_queue.project" Active="No"/>
   <Project Name="creating_trees" Path="creating_trees/creating_trees.project" Active="No"/>
   <Project Name="Avl_tree" Path="Avl_tree/Avl_tree.project" Active="Yes"/>
+  <Project Name="draft" Path="draft/draft.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -26,6 +27,7 @@
       <Project Name="priority_queue" ConfigName="Debug"/>
       <Project Name="creating_trees" ConfigName="Debug"/>
       <Project Name="Avl_tree" ConfigName="Debug"/>
+      <Project Name="draft" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -41,6 +43,7 @@
       <Project Name="priority_queue" ConfigName="Release"/>
       <Project Name="creating_trees" ConfigName="Release"/>
       <Project Name="Avl_tree" ConfigName="Release"/>
+      <Project Name="draft" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
