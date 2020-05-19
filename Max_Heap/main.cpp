@@ -12,7 +12,9 @@ int main() {
     h.insert(12);
     h.insert(6);
     h.insert(40);
+    h.erase();
     h.print();
+
 
     return 0;
 }

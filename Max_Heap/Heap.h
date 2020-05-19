@@ -26,6 +26,7 @@ public:
     void increase_capacity();
     void insert (int key);
     void heap_adapt(); // adapting heap after the insertion..
+    void erase(); // note : deleting from max heap is only deleting the maximum (root) key.
     void print();
     ~Heap();
 
