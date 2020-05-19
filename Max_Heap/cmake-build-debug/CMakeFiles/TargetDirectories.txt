@@ -1,0 +1,3 @@
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/cmake-build-debug/CMakeFiles/Max_Heap.dir

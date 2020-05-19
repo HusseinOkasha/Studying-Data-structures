@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/Heap.h
+iostream
+-
+
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/main.cpp
+iostream
+-
+Heap.h
+/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/Heap.h
+

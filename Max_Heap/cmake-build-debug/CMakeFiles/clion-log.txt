@@ -1,0 +1,4 @@
+/home/hussein/snap/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/hussein/805A95D45A95C6F6/Studying Data structures/Max_Heap/cmake-build-debug
