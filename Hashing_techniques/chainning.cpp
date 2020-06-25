@@ -1,5 +1,10 @@
 
-
+/*
+ * time complexity for search is load/2 + 1
+ * load is max size per index
+ * 1: for calculating the hash index (performing the hash function).
+ *
+ * */
 
 #include <bits/stdc++.h>
 using namespace std;
