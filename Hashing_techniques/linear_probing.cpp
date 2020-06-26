@@ -5,8 +5,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 /*
- * deleting in linear probing is so expensive and requires alot of work so we don't do it .
- *
+
+  deleting in linear probing is so expensive and requires a lot of work so we don't do it .
+  let , n: number of elements in hash table , size: size of the hash table .
+  n must be <= size/2 .
+  ======================================================================================================================
+  one of the drawbacks of linear probing is clustring (keys forming forming a group without empty cells between them.)
+  why this is a drawback ..?
+  As during searching you may be searching for 55 and the hash table from index 5 to index 9 looks like.
+  5 25
+  6 26
+  7 27
+  8 28
+  9 29
+  so you will have to search till the end.
+
  */
 
 int Hash(int key){
